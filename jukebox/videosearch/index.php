@@ -2,7 +2,7 @@
 	if (isset($_GET['search']))
 	    $searchTerm = urlencode($_GET['search']);
 
-    $APIKey = "AIzaSyCS3H_1Q8k6YsNTo_rfTgQo4yiEVqLC4AA";
+    $APIKey = "Api Key Here";
 	
 	echo '[';
     
