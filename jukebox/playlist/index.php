@@ -2,7 +2,7 @@
     if (isset($_GET['id']))
 	    $playlistID = urlencode($_GET['id']);
 
-    $APIKey = "AIzaSyCS3H_1Q8k6YsNTo_rfTgQo4yiEVqLC4AA";
+    $APIKey = "Api Key Here";
     $baseURL = "https://www.googleapis.com/youtube/v3/playlistItems?playlistId=$playlistID&maxResults=50&part=snippet,contentDetails&key=$APIKey";
     
     function getPlaylistSongs($token, $total) {
