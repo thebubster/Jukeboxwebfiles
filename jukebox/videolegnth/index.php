@@ -2,7 +2,7 @@
 	if (isset($_GET['id']))
 	    $videoID = $_GET['id'];
 
-    $APIKey = "AIzaSyCS3H_1Q8k6YsNTo_rfTgQo4yiEVqLC4AA";
+    $APIKey = "Api Key Here";
 
     $videoData = @file_get_contents("https://www.googleapis.com/youtube/v3/videos?id=$videoID&part=contentDetails&key=$APIKey");
     if ($videoData !== FALSE) {
